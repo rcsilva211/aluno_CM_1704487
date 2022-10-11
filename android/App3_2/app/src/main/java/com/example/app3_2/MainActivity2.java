@@ -2,8 +2,10 @@ package com.example.app3_2;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.media.ImageWriter;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 
 public class MainActivity2 extends AppCompatActivity {
 
@@ -15,14 +17,26 @@ public class MainActivity2 extends AppCompatActivity {
 
 
     public void send4(View view) {
+        ImageView iv;
+        iv=findViewById(R.id.imageView2);
+        iv.setImageResource(R.mipmap.mickey_1);
     }
 
     public void send5(View view) {
+        ImageView iv;
+        iv=findViewById(R.id.imageView2);
+        iv.setImageResource(R.mipmap.mickey_2);
     }
 
     public void send6(View view) {
+        ImageView iv;
+        iv=findViewById(R.id.imageView2);
+        iv.setImageResource(R.mipmap.mickey_3);
     }
 
     public void send7(View view) {
+        ImageView iv;
+        iv=findViewById(R.id.imageView2);
+        iv.setImageResource(R.mipmap.mickey_4);
     }
 }
