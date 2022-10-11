@@ -7,16 +7,19 @@
     tools:context=".MainActivity2">
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/imageButton3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="37dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="130dp"
+        android:layout_marginEnd="21dp"
         android:layout_marginBottom="534dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton4"
+        app:layout_constraintStart_toEndOf="@+id/imageButton2"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/mickey_1" />
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@mipmap/mickey_3" />
 
     <ImageButton
         android:id="@+id/imageButton2"
@@ -24,12 +27,13 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="14dp"
         android:layout_marginTop="130dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginEnd="21dp"
         android:layout_marginBottom="534dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imageButton3"
         app:layout_constraintStart_toEndOf="@+id/imageButton"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@mipmap/mickey_2" />
 
     <ImageButton
@@ -44,20 +48,43 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageButton3"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@mipmap/mickey_4" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/imageButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="40dp"
         android:layout_marginTop="130dp"
-        android:layout_marginEnd="13dp"
+        android:layout_marginEnd="20dp"
         android:layout_marginBottom="534dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton4"
-        app:layout_constraintStart_toEndOf="@+id/imageButton2"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton2"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/mickey_3" />
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@mipmap/mickey_1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="196dp"
+        android:layout_height="190dp"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="165dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="179dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton3"
+        app:srcCompat="@mipmap/mickey_2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
