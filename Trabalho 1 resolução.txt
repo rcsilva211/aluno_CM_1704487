@@ -1,0 +1,158 @@
+Questão 1
+
+1.1) Indique as tags do ficheiro manifest, AndroidManifest.xml. Designe-as por t1,
+t2, t3, etc… respectivamente
+
+t1- <?xml>, t2- <manifest>, t3- <application>, t4- <activity>, t5- <meta-data>, t6- <intent-filter>, t7- <action>, t8- <category>
+
+
+1.2) Marque as zonas em que cada uma delas intervém
+
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <application>
+        <activity>
+            <meta-data>
+        </activity>
+        <activity>
+            <intent-filter>
+                <action />
+                <category />
+            </intent-filter>
+            <meta-data />
+        </activity>
+    </application>
+</manifest>
+
+1.3) Indique no ficheiro qual a zona da actividade que é lançada no ecrã
+
+	<activity>
+            <intent-filter>
+                <action />
+                <category />
+            </intent-filter>
+            <meta-data />
+        </activity>
+
+
+1.4) Explique o que significa cada uma das declarações da tag <application>?
+android:dataExtractionRules="@xml/data_extraction_rules"
+ Regras para extração de dados
+
+android:fullBackupContent="@xml/backup_rules"
+ Regras de backup de conteúdo
+
+android:icon="@mipmap/app_simbolo"
+ Símbolo da aplicação (em ícone), que se encontra na pasta mipmap
+
+android:label="@string/app_name"
+ Nome da aplicação está no atributo app name (em values)
+
+android:roundIcon="@mipmap/app_simbolo_round"
+ Símbolo da aplicação em redondo, encontra-se na pasta mimpap
+
+android:supportsRtl="true"
+ A intenção da aplicação suportar a apresentação da Direita para a Esquerda
+
+android:theme="@style/Theme.App_3"
+ Indica as configurações iniciais da app
+
+
+
+
+Questão 2
+
+2.1 O que é um método?
+É uma ação
+
+2.2 O que é uma variável?
+É um estado
+
+2.3 Para que serve o método onCreate()?
+É  método de criação de uma atividade. Só é executado no momemnto de criação da atividade.
+
+2.4 Para que serve o método setContentView?
+Associa a atividade ao layout
+
+2.5 O que indica a expressão R.layout.activity_main
+Indica o caminho para o layout activity_main
+
+2.6 Para que serve o método Send?
+Método para implementar o clicar do botão. A implementação consiste em mudar de atividade.
+
+2.7 O que é um View?
+São classes de objetos visualizáveis.
+
+2.8 Para que servem os Intent?
+São classes de objetos para mudar de atividades.
+
+2.9 Explique o código das linhas 12 a 15?
+Linha 13, trazer para o programa as funcionalidades do método onCreate
+Método de iniciação de atividade.
+Linha 14, associa o layout à atividade.
+Linha 15, fecho do método onCreate
+
+2.10 Explique o código das linhas 17 a 20?
+Linha 17, sintaxe de início do método Send
+Linha 18, é criado um objeto Intent e é indicado a atividade que vai criar
+Linha 19, é iniciada a atividade definida no intent
+Linha 20, fecha o metodo Send
+
+2.11 O que é a expressão MainActivity2.class?
+Ficheiros de execução em java são .class, da MainActivity
+
+
+2.12 Encontre no código o ficheiro MainActivity2.class?
+Difícil ou impossível de encontrar
+
+
+
+Questão 3
+
+3.1 Indique as tags do ficheiro do activity_main.xml.
+<?xml>
+<androidx.constraintlayout.widget.ConstraintLayout>
+<TextView>
+<ImageView>
+<Button>
+
+3.2 Marque as zonas em qe cada uma delas intervêm.
+<androidx.constraintlayout.widget.ConstraintLayout>
+</TextView>
+</ImageView>
+</Button>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+3.3) Para que servem as expressões
+android:onClick="Send"
+Criar um método-ação para o botão
+android:text="ENTRAR"
+Colocar no botão a palavra ENTRAR
+
+3.4) Explique a linha de código 22, para que serve
+app:srcCompat="@mipmap/app_start"
+Indica qual a imagem associada neste caso ao ImageView
+
+3.5) Explique a linha de código 34, 35, 37, 38, para que serve
+Servem para indicar a localização do componente no layout.
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/imageView"
+
+3.6) Explique a linha de código 11, para que serve
+android:id="@+id/imageView"
+Serve para identificar um componente. Indica o nome do componente ImageView.
+
+3.7) Explique a linha de código 25, para que serve
+android:id="@+id/button"
+Serve para identificar um componente. Indica o nome do componente Button.
+
+
+
+Questão 4
+
+4.1 Para que serve o método sendMickey1?
+4.2 Explique o código das linhas 19 à 23
+4.3 Para que serve o método Site?
+4.4 Explique o código das linhas 40 à 4
