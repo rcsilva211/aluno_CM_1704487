@@ -91,4 +91,19 @@
         app:layout_constraintTop_toBottomOf="@+id/imageButton3"
         app:srcCompat="@mipmap/mickey_2" />
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="166dp"
+        android:layout_marginBottom="128dp"
+        android:onClick="Site"
+        android:text="GOOGLE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

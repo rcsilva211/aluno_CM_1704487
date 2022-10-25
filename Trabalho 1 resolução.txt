@@ -153,6 +153,21 @@ Serve para identificar um componente. Indica o nome do componente Button.
 Questão 4
 
 4.1 Para que serve o método sendMickey1?
+Para alterar o Image do ImageView substituindo-a pelo mickey4.
+
 4.2 Explique o código das linhas 19 à 23
+linha 19 - abertura do método sendMickey1
+linha 20 - criado um objeto ImageView de nome imageView
+linha 21 - associou-se o ImageView criado no layour à variável imageView
+linha 22 - substitui-se a image do ImageViewx
+linha 23 - fecho do método sendMickey1
+
 4.3 Para que serve o método Site?
-4.4 Explique o código das linhas 40 à 4
+Navegar para o site da Google
+
+4.4 Explique o código das linhas 40 à 44
+40 - abertura do método Site
+41 - Definir o uti do site a visitar
+42 - criar o intent para criar uma atividade para o botão
+43 - iniciar o Intent
+44 - Fecho do método Site

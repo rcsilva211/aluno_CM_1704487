@@ -2,7 +2,9 @@ package com.example.app3_2;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.media.ImageWriter;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -38,5 +40,11 @@ public class MainActivity2 extends AppCompatActivity {
         ImageView iv;
         iv=findViewById(R.id.imageView2);
         iv.setImageResource(R.mipmap.mickey_4);
+    }
+
+    public void Site(View view) {
+        String uri="https://www.google.pt";
+        Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse(uri));
+        startActivity(intent);
     }
 }
