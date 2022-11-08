@@ -15,6 +15,7 @@ branch auxiliar
 
 
 # nome do projecto
+F1 Showcase
 ## 1. Descrição do Trabalho
 Aplicação focada em mostrar os aspetos visuais dos carros de Formula 1 de 2022 (10 equipas)
 ## 2. Activities Criadas
