@@ -25,15 +25,15 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="175dp"
-        android:layout_marginEnd="165dp"
-        android:layout_marginBottom="26dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginEnd="160dp"
         android:text="Version 0.1"
         android:textColor="#FFf"
         app:drawableTint="#1A151E"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="684dp" />
 
     <ImageView
         android:id="@+id/imageView5"
