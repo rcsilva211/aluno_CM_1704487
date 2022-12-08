@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/f1_showcase_background"
     tools:context=".ui.home.HomeFragment">
-
+<!--Redirect text - NÃO APAGAR!-->
     <TextView
         android:id="@+id/text_home"
         android:layout_width="match_parent"
@@ -15,8 +16,419 @@
         android:layout_marginEnd="8dp"
         android:textAlignment="center"
         android:textSize="20sp"
+        android:textColor="@color/background"/>
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="20dp"
+        app:columnCount="2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:rowCount="5">
+
+        <!--Red Bull-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/RedBull"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="2dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/cardview_dark_background">
+
+
+                <ImageView
+                    android:id="@+id/RBRIMG"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/rbr_logo" />
+
+                <TextView
+                    android:id="@+id/RBRTEXT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/RBRIMG"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="0dp"
+                    android:text="Red Bull Racing"
+                    android:textColor="@color/white"
+                    android:textSize="15dp" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--Ferrari-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Ferrari"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="2dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/cardview_dark_background">
+
+
+                <ImageView
+                    android:id="@+id/FERRARIIMG"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ferrari" />
+
+                <TextView
+                    android:id="@+id/FERRARITXT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/FERRARIIMG"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="0dp"
+                    android:text="Ferrari"
+                    android:textColor="@color/white"
+                    android:textSize="15dp" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--Mercedes-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Mercedes"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="2dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/cardview_dark_background">
+
+
+                <ImageView
+                    android:id="@+id/MERCEDESIMG"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/merc" />
+
+                <TextView
+                    android:id="@+id/MERCEDESTXT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/MERCEDESIMG"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="0dp"
+                    android:text="Mercedes"
+                    android:textColor="@color/white"
+                    android:textSize="15dp" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--Alpha Tauri-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/AlphaTauri"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="2dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/cardview_dark_background">
+
+
+                <ImageView
+                    android:id="@+id/ATIMG"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/alphatauri" />
+
+                <TextView
+                    android:id="@+id/ATTXT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ATIMG"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="0dp"
+                    android:text="Alpha Tauri"
+                    android:textColor="@color/white"
+                    android:textSize="15dp" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--Aston Martin-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/AstonMartin"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="2dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/cardview_dark_background">
+
+
+                <ImageView
+                    android:id="@+id/AMIMG"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/aston_martin" />
+
+                <TextView
+                    android:id="@+id/AMTXT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/AMIMG"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="0dp"
+                    android:text="Aston Martin"
+                    android:textColor="@color/white"
+                    android:textSize="15dp" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--McLaren-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/McLaren"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="2dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/cardview_dark_background">
+
+
+                <ImageView
+                    android:id="@+id/MCLARENIMG"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/mclaren_logo" />
+
+                <TextView
+                    android:id="@+id/MCLARENTXT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/MCLARENIMG"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="0dp"
+                    android:text="McLaren"
+                    android:textColor="@color/white"
+                    android:textSize="15dp" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--Alfa Romeo-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/AlfaRomeo"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="2dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/cardview_dark_background">
+
+
+                <ImageView
+                    android:id="@+id/ARIMG"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/alfa_romeo" />
+
+                <TextView
+                    android:id="@+id/ARTXT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ARIMG"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="0dp"
+                    android:text="Alfa Romeo"
+                    android:textColor="@color/white"
+                    android:textSize="15dp" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--Alpine-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Alpine"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="2dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/cardview_dark_background">
+
+
+                <ImageView
+                    android:id="@+id/ALPINEIMG"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/alp" />
+
+                <TextView
+                    android:id="@+id/ALPINETXT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ALPINEIMG"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="0dp"
+                    android:text="Alpine"
+                    android:textColor="@color/white"
+                    android:textSize="15dp" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--Haas-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Haas"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="2dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/cardview_dark_background">
+
+
+                <ImageView
+                    android:id="@+id/HAASIMG"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/haas" />
+
+                <TextView
+                    android:id="@+id/HAASTXT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/HAASIMG"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="0dp"
+                    android:text="Haas"
+                    android:textColor="@color/white"
+                    android:textSize="15dp" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--Williams-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Williams"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="2dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/cardview_dark_background">
+
+
+                <ImageView
+                    android:id="@+id/WILLIAMSIMG"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/williams" />
+
+                <TextView
+                    android:id="@+id/WILLIAMSTXT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/WILLIAMSIMG"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="0dp"
+                    android:text="Williams"
+                    android:textColor="@color/white"
+                    android:textSize="15dp" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.gridlayout.widget.GridLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
