@@ -52,7 +52,7 @@
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="15dp"
                     android:src="@drawable/rbr_logo" />
 
                 <TextView
@@ -93,7 +93,7 @@
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="15dp"
                     android:src="@drawable/ferrari" />
 
                 <TextView
@@ -133,7 +133,7 @@
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="15dp"
                     android:src="@drawable/merc" />
 
                 <TextView
@@ -173,7 +173,7 @@
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="15dp"
                     android:src="@drawable/alphatauri" />
 
                 <TextView
@@ -213,7 +213,7 @@
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="15dp"
                     android:src="@drawable/aston_martin" />
 
                 <TextView
@@ -253,7 +253,7 @@
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="15dp"
                     android:src="@drawable/mclaren_logo" />
 
                 <TextView
@@ -293,7 +293,7 @@
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="15dp"
                     android:src="@drawable/alfa_romeo" />
 
                 <TextView
@@ -333,7 +333,7 @@
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="15dp"
                     android:src="@drawable/alp" />
 
                 <TextView
@@ -373,7 +373,7 @@
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="15dp"
                     android:src="@drawable/haas" />
 
                 <TextView
@@ -413,7 +413,7 @@
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="15dp"
                     android:src="@drawable/williams" />
 
                 <TextView
