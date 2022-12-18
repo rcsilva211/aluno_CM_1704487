@@ -47,7 +47,7 @@
                 android:background="@color/cardview_dark_background">
 
 
-                <ImageView
+                <ImageButton
                     android:id="@+id/RBRIMG"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
@@ -88,7 +88,7 @@
                 android:background="@color/cardview_dark_background">
 
 
-                <ImageView
+                <ImageButton
                     android:id="@+id/FERRARIIMG"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
@@ -128,7 +128,7 @@
                 android:background="@color/cardview_dark_background">
 
 
-                <ImageView
+                <ImageButton
                     android:id="@+id/MERCEDESIMG"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
@@ -168,7 +168,7 @@
                 android:background="@color/cardview_dark_background">
 
 
-                <ImageView
+                <ImageButton
                     android:id="@+id/ATIMG"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
@@ -208,7 +208,7 @@
                 android:background="@color/cardview_dark_background">
 
 
-                <ImageView
+                <ImageButton
                     android:id="@+id/AMIMG"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
@@ -248,7 +248,7 @@
                 android:background="@color/cardview_dark_background">
 
 
-                <ImageView
+                <ImageButton
                     android:id="@+id/MCLARENIMG"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
@@ -288,7 +288,7 @@
                 android:background="@color/cardview_dark_background">
 
 
-                <ImageView
+                <ImageButton
                     android:id="@+id/ARIMG"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
@@ -328,7 +328,7 @@
                 android:background="@color/cardview_dark_background">
 
 
-                <ImageView
+                <ImageButton
                     android:id="@+id/ALPINEIMG"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
@@ -368,7 +368,7 @@
                 android:background="@color/cardview_dark_background">
 
 
-                <ImageView
+                <ImageButton
                     android:id="@+id/HAASIMG"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
@@ -408,7 +408,7 @@
                 android:background="@color/cardview_dark_background">
 
 
-                <ImageView
+                <ImageButton
                     android:id="@+id/WILLIAMSIMG"
                     android:layout_width="75dp"
                     android:layout_height="75dp"

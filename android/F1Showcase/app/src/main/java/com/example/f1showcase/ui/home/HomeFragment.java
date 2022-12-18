@@ -12,6 +12,7 @@ import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
+import com.example.f1showcase.Drawer;
 import com.example.f1showcase.MainActivity2;
 import com.example.f1showcase.databinding.FragmentHomeBinding;
 
