@@ -86,7 +86,7 @@ public class Drawer extends AppCompatActivity {
     }
 
     public void sendAmr(View view) {
-        Intent intent=new Intent(this,MainActivity.class);
+        Intent intent=new Intent(this,aston_martin.class);
         startActivity(intent);
     }
 
