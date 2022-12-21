@@ -91,27 +91,27 @@ public class Drawer extends AppCompatActivity {
     }
 
     public void sendMcl(View view) {
-        Intent intent=new Intent(this,MainActivity.class);
+        Intent intent=new Intent(this,mclaren.class);
         startActivity(intent);
     }
 
     public void sendAlr(View view) {
-        Intent intent=new Intent(this,MainActivity.class);
+        Intent intent=new Intent(this,alfa_romeo.class);
         startActivity(intent);
     }
 
     public void sendAlp(View view) {
-        Intent intent=new Intent(this,MainActivity.class);
+        Intent intent=new Intent(this,alpine.class);
         startActivity(intent);
     }
 
     public void sendHas(View view) {
-        Intent intent=new Intent(this,MainActivity.class);
+        Intent intent=new Intent(this,haas.class);
         startActivity(intent);
     }
 
     public void sendWill(View view) {
-        Intent intent=new Intent(this,MainActivity.class);
+        Intent intent=new Intent(this,williams.class);
         startActivity(intent);
     }
 }
