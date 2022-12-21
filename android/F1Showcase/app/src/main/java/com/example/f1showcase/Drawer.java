@@ -1,5 +1,6 @@
 package com.example.f1showcase;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
@@ -62,5 +63,55 @@ public class Drawer extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_drawer);
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
+    }
+
+    public void sendRbr(View view) {
+        Intent intent=new Intent(this,red_bull.class);
+        startActivity(intent);
+    }
+
+    public void sendFer(View view) {
+        Intent intent=new Intent(this,ferrari.class);
+        startActivity(intent);
+    }
+
+    public void sendMer(View view) {
+        Intent intent=new Intent(this,mercedes.class);
+        startActivity(intent);
+    }
+
+    public void sendAta(View view) {
+        Intent intent=new Intent(this,alpha_tauri.class);
+        startActivity(intent);
+    }
+
+    public void sendAmr(View view) {
+        Intent intent=new Intent(this,MainActivity.class);
+        startActivity(intent);
+    }
+
+    public void sendMcl(View view) {
+        Intent intent=new Intent(this,MainActivity.class);
+        startActivity(intent);
+    }
+
+    public void sendAlr(View view) {
+        Intent intent=new Intent(this,MainActivity.class);
+        startActivity(intent);
+    }
+
+    public void sendAlp(View view) {
+        Intent intent=new Intent(this,MainActivity.class);
+        startActivity(intent);
+    }
+
+    public void sendHas(View view) {
+        Intent intent=new Intent(this,MainActivity.class);
+        startActivity(intent);
+    }
+
+    public void sendWill(View view) {
+        Intent intent=new Intent(this,MainActivity.class);
+        startActivity(intent);
     }
 }
