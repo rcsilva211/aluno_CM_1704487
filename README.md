@@ -99,6 +99,10 @@ Apenas composto por textView. Títulos estão em bold.
 ## 6. Assets usados no trabalho
 ![alt text](./imagens/F1ShowcaseAssets/app_icon.png)
 ![alt text](./imagens/F1ShowcaseAssets/Vertical%20dark.png)
+
+Todos os carros listados no ponto 5.
+Todos os ícones listados no ponto 5.
+
 ## 7. Conclusão
 O projeto correu de acordo com o planeado na definição do mesmo.
 
